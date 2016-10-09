@@ -1,4 +1,4 @@
-# -vagrant-pentaho-biserver-5
+# vagrant-pentaho-biserver-5
 
 ## Features
 
