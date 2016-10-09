@@ -1,0 +1,11 @@
+[Unit]
+Description=Pentaho-BI 5 CE Server
+
+[Service]
+Type=oneshot
+ExecStart=/opt/pentaho/biserver-ce/start-pentaho.sh
+ExecStop=/opt/pentaho/biserver-ce/stop-pentaho.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

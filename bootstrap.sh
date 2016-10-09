@@ -92,3 +92,9 @@ sed -i s/"SampleDataAdmin\/password=password"/"#SampleDataAdmin\/password=passwo
 # Permission check
 chmod +x /opt/pentaho/biserver-ce/*.sh
 
+# Install the service into systemd
+cp /vagrant/pentaho-bi.service /etc/systemd/system/
+# Enable automatic startup
+systemctl enable pentaho-bi.service
+# Start pentaho
+systemctl start pentaho-bi.service
