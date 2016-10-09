@@ -19,3 +19,5 @@ By default, this machine uses 2 cores and 2 GB of RAM (the minimum recommended).
 * Run *vagrant up*
 * Run *vagrant ssh*
 * Run */opt/pentaho/start-pentaho.sh*
+
+By default, you can access *Pentaho User Console* by accessing [http://localhost:8080](http://localhost:8080).
