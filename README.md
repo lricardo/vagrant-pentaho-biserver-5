@@ -1,11 +1,12 @@
 # vagrant-pentaho-biserver-5
 
-## Features
+## Feature set
 
 * Ubuntu 16.04.1 LTS
 * PostgreSQL 9.5 (without extensions loaded)
 * Pentaho BI Server 5.0.1
 * Oracle JDK 6
+* Add-on: Systemd unit for automatic startup of pentaho
 
 ## Configuration
 
@@ -17,7 +18,5 @@ By default, this machine uses 2 cores and 2 GB of RAM (the minimum recommended).
 * Clone this repo
 * Change directory into the cloned folder
 * Run *vagrant up*
-* Run *vagrant ssh*
-* Run */opt/pentaho/start-pentaho.sh*
 
 By default, you can access *Pentaho User Console* by accessing [http://localhost:8080](http://localhost:8080). To login, use *admin* as username and *password* as password. Don't push enter, click in the login button!
